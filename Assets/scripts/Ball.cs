@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -5,59 +6,78 @@ public class Ball : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
     [SerializeField] private Rigidbody2D body;
-
-    // Start direction in degrees: 0 = right, 90 = up, -45 = down right, -135 = down left
     [SerializeField] private float startDirection = -45f;
-
-    // Bounce angle relative to the hit surface in degrees (45 = diagonal)
-    [SerializeField] private float bounceDirection = 45f;
-
-    // every bouncy obj needs a special tag to be bouncy
-    [SerializeField] private string bounceTag = "bounce";
-
+    [SerializeField, Range(10f, 80f)] private float bounceDirection = 45f;
     private Vector2 lastSpeed;
+    private SpriteRenderer spriteRenderer;
 
-    void Awake()
+    public bool IsAlive { get; private set; }
+    public int BounceCount { get; private set; }
+    public event Action Bounced;
+    public event Action Died;
+
+    private void Awake()
     {
         if (body == null) body = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         body.gravityScale = 0f;
         body.linearDamping = 0f;
+        body.constraints = RigidbodyConstraints2D.FreezeRotation;
+        body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        body.interpolation = RigidbodyInterpolation2D.Interpolate;
     }
 
-    void Start()
+    private void Start() => Launch(body.position);
+
+    public void Launch(Vector2 position)
     {
-        // starting direction
-        float rad = startDirection * Mathf.Deg2Rad;
-        Vector2 startDir = new Vector2(Mathf.Cos(rad), Mathf.Sin(rad));
-        body.linearVelocity = startDir * speed;
+        body.simulated = false;
+        transform.SetPositionAndRotation(new Vector3(position.x, position.y, transform.position.z), Quaternion.identity);
+        body.position = position;
+        body.rotation = 0f;
+        body.angularVelocity = 0f;
+        body.simulated = true;
+        BounceCount = 0;
+        IsAlive = true;
+        float radians = startDirection * Mathf.Deg2Rad;
+        lastSpeed = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians)) * speed;
+        body.linearVelocity = lastSpeed;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        // get the speed before the collision
+        if (!IsAlive) return;
         lastSpeed = body.linearVelocity;
+        if (spriteRenderer != null) spriteRenderer.flipX = lastSpeed.x < 0f;
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!collision.collider.CompareTag(bounceTag))
+        if (!IsAlive) return;
+        // A component avoids relying on an undefined custom Unity tag.
+        if (!collision.collider.TryGetComponent<BounceSurface>(out _))
         {
-            // die
-            Debug.Log("Player collided with " + collision.collider.name);
+            Die();
             return;
         }
-
         Vector2 normal = collision.GetContact(0).normal;
         Vector2 tangent = new Vector2(-normal.y, normal.x);
-
-        // keep moving along the surface in the same direction as before
         float side = Mathf.Sign(Vector2.Dot(lastSpeed, tangent));
-        side = side == 0 ? 1f : side;
+        if (side == 0f) side = 1f;
+        float radians = bounceDirection * Mathf.Deg2Rad;
+        Vector2 direction = tangent * side * Mathf.Cos(radians) + normal * Mathf.Sin(radians);
+        lastSpeed = direction.normalized * speed;
+        body.linearVelocity = lastSpeed;
+        BounceCount++;
+        Bounced?.Invoke();
+    }
 
-        // mix tangent and normal to get the bounce angle
-        float rad = bounceDirection * Mathf.Deg2Rad;
-        Vector2 dir = tangent * side * Mathf.Cos(rad) + normal * Mathf.Sin(rad);
-
-        body.linearVelocity = dir.normalized * speed;
+    public void Die()
+    {
+        if (!IsAlive) return;
+        IsAlive = false;
+        body.linearVelocity = Vector2.zero;
+        body.simulated = false;
+        Died?.Invoke();
     }
 }
