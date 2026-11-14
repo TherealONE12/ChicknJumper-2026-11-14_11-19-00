@@ -148,12 +148,9 @@ public static class DemoBuild
         var background = GameObject.Find("Scheune");
         var scenery = background.GetComponent<EndlessBackground>() ?? background.AddComponent<EndlessBackground>();
         SetObject(scenery, "cam", camera);
-        var ceilingObject = GameObject.Find("Endless ceiling") ?? new GameObject("Endless ceiling", typeof(BoxCollider2D), typeof(BounceSurface));
+        var ceilingObject = GameObject.Find("Endless ceiling") ?? new GameObject("Endless ceiling", typeof(BoxCollider2D));
         ceilingObject.transform.position = new Vector3(0f, 5.4f, 0f);
         ceilingObject.GetComponent<BoxCollider2D>().size = new Vector2(40f, 0.3f);
-        var surface = new SerializedObject(ceilingObject.GetComponent<BounceSurface>());
-        surface.FindProperty("awardsPoint").boolValue = false;
-        surface.ApplyModifiedPropertiesWithoutUndo();
         var world = demo.GetComponent<EndlessWorld>() ?? demo.gameObject.AddComponent<EndlessWorld>();
         SetObject(world, "cam", camera);
         SetObject(world, "chicken", chicken);

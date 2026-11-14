@@ -6,7 +6,7 @@ public class EndlessWorld : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private Ball chicken;
     [SerializeField] private TrampolinePlacement placement;
-    [SerializeField] private BoxCollider2D ceiling;
+    [SerializeField] private float deathHeight = 10f;
     [SerializeField] private EndlessBackground scenery;
     [SerializeField] private SpriteRenderer shade;
     private Rigidbody2D body;
@@ -16,7 +16,7 @@ public class EndlessWorld : MonoBehaviour
     private void FixedUpdate()
     {
         // Rebase by complete mirror periods to preserve precision during long runs.
-        if (Mathf.Abs(body.position.x) > 2048f)
+        if (Mathf.Abs(body.position.x) > 2000f)
         {
             float shift = Mathf.Round(body.position.x / scenery.RepeatWidth) * scenery.RepeatWidth;
             body.position -= Vector2.right * shift;
@@ -25,8 +25,8 @@ public class EndlessWorld : MonoBehaviour
             if (placement.PlacedTrampoline != null)
                 placement.PlacedTrampoline.transform.position -= Vector3.right * shift;
         }
-        ceiling.transform.position = new Vector3(body.position.x, 5.4f, 0f);
-        ceiling.size = new Vector2(cam.orthographicSize * cam.aspect * 2f + 20f, 0.3f);
+        // No ceiling collider anymore: the chicken dies when it leaves through the top.
+        if (body.position.y > deathHeight) chicken.Die();
     }
 
     private void LateUpdate()
