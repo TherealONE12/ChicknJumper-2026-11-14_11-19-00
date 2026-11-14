@@ -31,3 +31,10 @@ However, you can't Place them onto your Chicken, so plan accordingly!!
 ---
 
 # Made by Sebastian, Paul and Jakob with <3 (And some bugs, lol)
+
+---
+
+Find us somewhere else:
+- seesee010 github: [seesee010](https://github.com/seesee010)
+- jakob github: [jakob](https://github.com/TherealONE12)
+- Paul github: [Paul](https://github.com/PaulP09)
