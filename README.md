@@ -1,13 +1,12 @@
 # ChicknJumper 
 
----
+![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![Unity Version](https://img.shields.io/badge/Unity-6.6-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 
 You just escaped from your Cage. How Far can you Fly?
 
 ---
-
-
-
 
 <img width="1082/2" height="430/2" alt="image" src="https://github.com/user-attachments/assets/f9a81ffd-adbc-4a29-82a3-3fe989cc60be" />
 
