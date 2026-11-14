@@ -9,8 +9,10 @@ public class TrampolinePlacement : MonoBehaviour
     [SerializeField] private GameObject prefab;
     [SerializeField] private Camera cam;
     [SerializeField] private Ball chicken;
-    [SerializeField] private Vector2 arenaMin = new Vector2(-8.2f, -3.2f);
-    [SerializeField] private Vector2 arenaMax = new Vector2(8.2f, 10);
+    [SerializeField] private Vector2 arenaMin = new Vector2(-7.2f, -3.2f);
+    [SerializeField] private Vector2 arenaMax = new Vector2(7.2f, 3.2f);
+    // size of the free area needed to place a trampoline
+    [SerializeField] private Vector2 trampolineSize = new Vector2(2.4f, 0.8f);
     private GameObject placedTrampoline;
     public GameObject PlacedTrampoline => placedTrampoline;
 
@@ -44,7 +46,13 @@ public class TrampolinePlacement : MonoBehaviour
         position.y = Mathf.Clamp(position.y, arenaMin.y, arenaMax.y);
         arenaMax.y = arenaMax.y + 1;
         // Do not create a collider inside the chicken or an arena wall.
-        if (Physics2D.OverlapBox(position, new Vector2(2.4f, 0.8f), 0f) != null) return false;
+        // The old trampoline and triggers are ignored, the old one gets replaced anyway.
+        foreach (Collider2D hit in Physics2D.OverlapBoxAll(position, trampolineSize, 0f))
+        {
+            if (hit.isTrigger) continue;
+            if (placedTrampoline != null && hit.transform.IsChildOf(placedTrampoline.transform)) continue;
+            return false;
+        }
         if (placedTrampoline != null)
         {
             placedTrampoline.SetActive(false);
@@ -52,6 +60,12 @@ public class TrampolinePlacement : MonoBehaviour
         }
         // Never overwrite the prefab reference with a scene instance.
         placedTrampoline = Instantiate(prefab, position, Quaternion.identity);
+        // Only trampolines bounce: every collider of the trampoline becomes a solid bounce surface.
+        foreach (Collider2D col in placedTrampoline.GetComponentsInChildren<Collider2D>())
+        {
+            col.isTrigger = false;
+            if (!col.TryGetComponent<BounceSurface>(out _)) col.gameObject.AddComponent<BounceSurface>();
+        }
         return true;
     }
 
