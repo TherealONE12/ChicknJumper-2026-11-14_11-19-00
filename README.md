@@ -25,4 +25,8 @@ ChicknJumper is a game where you Try to Bounce your way to the next Highscore, m
 
 You can not Interact with the Chicken. Well, Kinda... You can Place Trampolines to Let your chicken Bounce the way to freedom!
 
+However, you can't Place them onto your Chicken, so plan accordingly!!
+
+
+
 
