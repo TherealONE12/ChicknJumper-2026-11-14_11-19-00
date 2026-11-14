@@ -11,6 +11,7 @@ public class TrampolinePlacement : MonoBehaviour
     [SerializeField] private Ball chicken;
     [SerializeField] private Vector2 arenaMin = new Vector2(-8.2f, -3.2f);
     [SerializeField] private Vector2 arenaMax = new Vector2(8.2f, 3.2f);
+    [SerializeField] private Vector2 trampolineSize = new Vector2(1.5f, 0.5f);
     private GameObject placedTrampoline;
     public GameObject PlacedTrampoline => placedTrampoline;
 
