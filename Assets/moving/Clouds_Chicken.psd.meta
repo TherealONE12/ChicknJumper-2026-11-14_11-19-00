@@ -1,0 +1,2446 @@
+fileFormatVersion: 2
+guid: 68fb9eb3c5f9349cdb39384144b3fdd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7400934684557240870
+    second: Clouds_Chicken_0
+  - first:
+      213: -3300128237541872265
+    second: Clouds_Chicken_1
+  - first:
+      213: 1614289919957973526
+    second: Clouds_Chicken_2
+  - first:
+      213: -1583589752413285446
+    second: Clouds_Chicken_3
+  - first:
+      213: 6788304143523146823
+    second: Clouds_Chicken_4
+  - first:
+      213: 6676771602897124945
+    second: Clouds_Chicken_5
+  - first:
+      213: 8789642123057793755
+    second: Clouds_Chicken_6
+  - first:
+      213: 4256037714719080549
+    second: Clouds_Chicken_7
+  - first:
+      213: -9038961546842607724
+    second: Clouds_Chicken_8
+  - first:
+      213: -6088308654725891307
+    second: Clouds_Chicken_9
+  - first:
+      213: -4554547702848000958
+    second: Clouds_Chicken_10
+  - first:
+      213: -1118181432663380171
+    second: Clouds_Chicken_11
+  - first:
+      213: -1500265206648690310
+    second: Clouds_Chicken_12
+  - first:
+      213: -8874091490135578307
+    second: Clouds_Chicken_13
+  - first:
+      213: -7095243925078553194
+    second: Clouds_Chicken_14
+  - first:
+      213: -1198977010254691440
+    second: Clouds_Chicken_15
+  - first:
+      213: -3432733542426944198
+    second: Clouds_Chicken_16
+  - first:
+      213: 6081801268827923481
+    second: Clouds_Chicken_17
+  - first:
+      213: -7674950362882017404
+    second: Clouds_Chicken_18
+  - first:
+      213: 3084253113470574528
+    second: Clouds_Chicken_19
+  - first:
+      213: -4848927762291776930
+    second: Clouds_Chicken_20
+  - first:
+      213: 2228950020039050305
+    second: Clouds_Chicken_21
+  - first:
+      213: -5125856701727133519
+    second: Clouds_Chicken_22
+  - first:
+      213: 5680145691099152663
+    second: Clouds_Chicken_23
+  - first:
+      213: 2512537749552922797
+    second: Clouds_Chicken_24
+  - first:
+      213: -7319418018815895265
+    second: Clouds_Chicken_25
+  - first:
+      213: -7177590469724063878
+    second: Clouds_Chicken_26
+  - first:
+      213: 7227507148516656909
+    second: Clouds_Chicken_27
+  - first:
+      213: -5509087638044552770
+    second: Clouds_Chicken_28
+  - first:
+      213: 5295665416808554534
+    second: Clouds_Chicken_29
+  - first:
+      213: -8340195873251622855
+    second: Clouds_Chicken_30
+  - first:
+      213: -6139448318356881946
+    second: Clouds_Chicken_31
+  - first:
+      213: -5435454198168515393
+    second: Clouds_Chicken_32
+  - first:
+      213: 7472498944686461586
+    second: Clouds_Chicken_33
+  - first:
+      213: -5598339074789741073
+    second: Clouds_Chicken_34
+  - first:
+      213: 3292862356947745727
+    second: Clouds_Chicken_35
+  - first:
+      213: -783037419166782374
+    second: Clouds_Chicken_36
+  - first:
+      213: 5239396873777908837
+    second: Clouds_Chicken_37
+  - first:
+      213: 8612495225006188527
+    second: Clouds_Chicken_38
+  - first:
+      213: -6381196400677522532
+    second: Clouds_Chicken_39
+  - first:
+      213: -4931875721474720482
+    second: Clouds_Chicken_40
+  - first:
+      213: 5740219171945564591
+    second: Clouds_Chicken_41
+  - first:
+      213: 375210292871458530
+    second: Clouds_Chicken_42
+  - first:
+      213: -7732874492214712474
+    second: Clouds_Chicken_43
+  - first:
+      213: 2094684168989636025
+    second: Clouds_Chicken_44
+  - first:
+      213: -5596009854006290279
+    second: Clouds_Chicken_45
+  - first:
+      213: 4350802705987258328
+    second: Clouds_Chicken_46
+  - first:
+      213: -1966594591229338916
+    second: Clouds_Chicken_47
+  - first:
+      213: -5368689906150320648
+    second: Clouds_Chicken_48
+  - first:
+      213: 5387601039807832938
+    second: Clouds_Chicken_49
+  - first:
+      213: 3672829899551382181
+    second: Clouds_Chicken_50
+  - first:
+      213: 7787385670278810478
+    second: Clouds_Chicken_51
+  - first:
+      213: -1249575619143788952
+    second: Clouds_Chicken_52
+  - first:
+      213: -7219379079097106129
+    second: Clouds_Chicken_53
+  - first:
+      213: -1801726648322573264
+    second: Clouds_Chicken_54
+  - first:
+      213: 1314708450614743190
+    second: Clouds_Chicken_55
+  - first:
+      213: -1119350531409802373
+    second: Clouds_Chicken_56
+  - first:
+      213: -5074695456874359790
+    second: Clouds_Chicken_57
+  - first:
+      213: 2332601714458962566
+    second: Clouds_Chicken_58
+  - first:
+      213: -6267719219864772591
+    second: Clouds_Chicken_59
+  - first:
+      213: 7939186536256834632
+    second: Clouds_Chicken_60
+  - first:
+      213: -4766216925953216773
+    second: Clouds_Chicken_61
+  - first:
+      213: 5352291933348429263
+    second: Clouds_Chicken_62
+  - first:
+      213: 5915272668732091250
+    second: Clouds_Chicken_63
+  - first:
+      213: 4771166120331350376
+    second: Clouds_Chicken_64
+  - first:
+      213: 8360754379131751811
+    second: Clouds_Chicken_65
+  - first:
+      213: -6940014345966503748
+    second: Clouds_Chicken_66
+  - first:
+      213: -3775235236583367255
+    second: Clouds_Chicken_67
+  - first:
+      213: 2700611226707757493
+    second: Clouds_Chicken_68
+  - first:
+      213: 505840441068954742
+    second: Clouds_Chicken_69
+  - first:
+      213: 8327957011134196725
+    second: Clouds_Chicken_70
+  - first:
+      213: -7222755829955835649
+    second: Clouds_Chicken_71
+  - first:
+      213: -4397444667180718000
+    second: Clouds_Chicken_72
+  - first:
+      213: 8762449652252847517
+    second: Clouds_Chicken_73
+  - first:
+      213: 4428274612072291804
+    second: Clouds_Chicken_74
+  - first:
+      213: -2648479617144467840
+    second: Clouds_Chicken_75
+  - first:
+      213: -3054652599349027449
+    second: Clouds_Chicken_76
+  - first:
+      213: 196344264314042127
+    second: Clouds_Chicken_77
+  - first:
+      213: 2749205165856251926
+    second: Clouds_Chicken_78
+  - first:
+      213: 200239163745288065
+    second: Clouds_Chicken_79
+  - first:
+      213: 5157536780574162284
+    second: Clouds_Chicken_80
+  - first:
+      213: 6888881680151328806
+    second: Clouds_Chicken_81
+  - first:
+      213: -6920068017531967247
+    second: Clouds_Chicken_82
+  - first:
+      213: 8214887223976595404
+    second: Clouds_Chicken_83
+  - first:
+      213: -6380510873431362412
+    second: Clouds_Chicken_84
+  - first:
+      213: -1643172615344876760
+    second: Clouds_Chicken_85
+  - first:
+      213: -9147253102873429347
+    second: Clouds_Chicken_86
+  - first:
+      213: 6900601751525346838
+    second: Clouds_Chicken_87
+  - first:
+      213: -8158265851498914173
+    second: Clouds_Chicken_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Clouds_Chicken_0
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 44
+        width: 1215
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ae6ee32e665b660800000000000000
+      internalID: 7400934684557240870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_1
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 285
+        width: 1778
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77da4105ad69332d0800000000000000
+      internalID: -3300128237541872265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_2
+      rect:
+        serializedVersion: 2
+        x: 5660
+        y: 892
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ab69b112c176610800000000000000
+      internalID: 1614289919957973526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_3
+      rect:
+        serializedVersion: 2
+        x: 7182
+        y: 384
+        width: 830
+        height: 516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab31579a285f50ae0800000000000000
+      internalID: -1583589752413285446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_4
+      rect:
+        serializedVersion: 2
+        x: 14674
+        y: 285
+        width: 1418
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c620e07a6e43e50800000000000000
+      internalID: 6788304143523146823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_5
+      rect:
+        serializedVersion: 2
+        x: 17338
+        y: 573
+        width: 333
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e3915d568a8ac50800000000000000
+      internalID: 6676771602897124945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_6
+      rect:
+        serializedVersion: 2
+        x: 18619
+        y: 469
+        width: 644
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda8baff0f41bf970800000000000000
+      internalID: 8789642123057793755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_7
+      rect:
+        serializedVersion: 2
+        x: 20228
+        y: 510
+        width: 465
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5600f7880cb701b30800000000000000
+      internalID: 4256037714719080549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_8
+      rect:
+        serializedVersion: 2
+        x: 21941
+        y: 418
+        width: 837
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fe7061d582f8280800000000000000
+      internalID: -9038961546842607724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_9
+      rect:
+        serializedVersion: 2
+        x: 23820
+        y: 609
+        width: 335
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b7028298bf18ba0800000000000000
+      internalID: -6088308654725891307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_10
+      rect:
+        serializedVersion: 2
+        x: 24785
+        y: 203
+        width: 2841
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c6c2bcefefac0c0800000000000000
+      internalID: -4554547702848000958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_11
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 840
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f69af49eb6b70f0800000000000000
+      internalID: -1118181432663380171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_12
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 830
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79a3d84ebcfd2be0800000000000000
+      internalID: -1500265206648690310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_13
+      rect:
+        serializedVersion: 2
+        x: 10834
+        y: 132
+        width: 957
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39e6228ec4e8d480800000000000000
+      internalID: -8874091490135578307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_14
+      rect:
+        serializedVersion: 2
+        x: 29299
+        y: 495
+        width: 334
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dc1fa0e31a88d90800000000000000
+      internalID: -7095243925078553194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_15
+      rect:
+        serializedVersion: 2
+        x: 29441
+        y: 821
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093c8e9f2c06c5fe0800000000000000
+      internalID: -1198977010254691440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_16
+      rect:
+        serializedVersion: 2
+        x: 29459
+        y: 818
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dd213d70b7c50d0800000000000000
+      internalID: -3432733542426944198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_17
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 799
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914220ff706e66450800000000000000
+      internalID: 6081801268827923481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_18
+      rect:
+        serializedVersion: 2
+        x: 27727
+        y: 165
+        width: 364
+        height: 642
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48779affe491d7590800000000000000
+      internalID: -7674950362882017404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_19
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 791
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf5ec99dd77dca20800000000000000
+      internalID: 3084253113470574528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_20
+      rect:
+        serializedVersion: 2
+        x: 20229
+        y: 785
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52a11314e525bcb0800000000000000
+      internalID: -4848927762291776930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_21
+      rect:
+        serializedVersion: 2
+        x: 23821
+        y: 787
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440786db32deee10800000000000000
+      internalID: 2228950020039050305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_22
+      rect:
+        serializedVersion: 2
+        x: 18619
+        y: 780
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0bffbdc7c4dd8b0800000000000000
+      internalID: -5125856701727133519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_23
+      rect:
+        serializedVersion: 2
+        x: 20683
+        y: 770
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7114e6e496ee3de40800000000000000
+      internalID: 5680145691099152663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_24
+      rect:
+        serializedVersion: 2
+        x: 8410
+        y: 0
+        width: 1347
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da08cde65c35ed220800000000000000
+      internalID: 2512537749552922797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_25
+      rect:
+        serializedVersion: 2
+        x: 17666
+        y: 744
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1992e187143c6a90800000000000000
+      internalID: -7319418018815895265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_26
+      rect:
+        serializedVersion: 2
+        x: 20686
+        y: 745
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a773edc0f73146c90800000000000000
+      internalID: -7177590469724063878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_27
+      rect:
+        serializedVersion: 2
+        x: 23332
+        y: 0
+        width: 1564
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d078ee665734d4460800000000000000
+      internalID: 7227507148516656909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_28
+      rect:
+        serializedVersion: 2
+        x: 22771
+        y: 734
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1dbd94bf9cb83b0800000000000000
+      internalID: -5509087638044552770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_29
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 171
+        width: 561
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620e13293abfd7940800000000000000
+      internalID: 5295665416808554534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_30
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 707
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93088a1aa0ca14c80800000000000000
+      internalID: -8340195873251622855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_31
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 709
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edf77b584c4ccaa0800000000000000
+      internalID: -6139448318356881946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_32
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 708
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc824d74336194b0800000000000000
+      internalID: -5435454198168515393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_33
+      rect:
+        serializedVersion: 2
+        x: 19254
+        y: 706
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292948ef236a3b760800000000000000
+      internalID: 7472498944686461586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_34
+      rect:
+        serializedVersion: 2
+        x: 16082
+        y: 684
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fede7f2d544be42b0800000000000000
+      internalID: -5598339074789741073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_35
+      rect:
+        serializedVersion: 2
+        x: 27618
+        y: 697
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb30280ed892bd20800000000000000
+      internalID: 3292862356947745727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_36
+      rect:
+        serializedVersion: 2
+        x: 19253
+        y: 686
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ca9b0bd971225f0800000000000000
+      internalID: -783037419166782374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_37
+      rect:
+        serializedVersion: 2
+        x: 19256
+        y: 668
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c03da72b316b840800000000000000
+      internalID: 5239396873777908837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_38
+      rect:
+        serializedVersion: 2
+        x: 27619
+        y: 669
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7ed34b6cab58770800000000000000
+      internalID: 8612495225006188527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_39
+      rect:
+        serializedVersion: 2
+        x: 18143
+        y: 324
+        width: 334
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c937d9fbeaf6177a0800000000000000
+      internalID: -6381196400677522532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_40
+      rect:
+        serializedVersion: 2
+        x: 19253
+        y: 652
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d302959257e8bb0800000000000000
+      internalID: -4931875721474720482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_41
+      rect:
+        serializedVersion: 2
+        x: 27727
+        y: 647
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9c3b48cea59af40800000000000000
+      internalID: 5740219171945564591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_42
+      rect:
+        serializedVersion: 2
+        x: 27727
+        y: 632
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee6caef5c3053500800000000000000
+      internalID: 375210292871458530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_43
+      rect:
+        serializedVersion: 2
+        x: 27727
+        y: 624
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667ecdeae9f4fa490800000000000000
+      internalID: -7732874492214712474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_44
+      rect:
+        serializedVersion: 2
+        x: 7183
+        y: 610
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5f2415720d11d10800000000000000
+      internalID: 2094684168989636025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_45
+      rect:
+        serializedVersion: 2
+        x: 14675
+        y: 610
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9989e5ccfaaf652b0800000000000000
+      internalID: -5596009854006290279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_46
+      rect:
+        serializedVersion: 2
+        x: 27729
+        y: 610
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7cd227208216c30800000000000000
+      internalID: 4350802705987258328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_47
+      rect:
+        serializedVersion: 2
+        x: 12701
+        y: 0
+        width: 1187
+        height: 597
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda129483a045b4e0800000000000000
+      internalID: -1966594591229338916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_48
+      rect:
+        serializedVersion: 2
+        x: 16807
+        y: 0
+        width: 1157
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f55fa299f49e75b0800000000000000
+      internalID: -5368689906150320648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_49
+      rect:
+        serializedVersion: 2
+        x: 17228
+        y: 587
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a636549d99a94ca40800000000000000
+      internalID: 5387601039807832938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_50
+      rect:
+        serializedVersion: 2
+        x: 28506
+        y: 21
+        width: 438
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa913b855388f230800000000000000
+      internalID: 3672829899551382181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_51
+      rect:
+        serializedVersion: 2
+        x: 14676
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b8fedf10a521c60800000000000000
+      internalID: 7787385670278810478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_52
+      rect:
+        serializedVersion: 2
+        x: 10834
+        y: 506
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86612fc489d98aee0800000000000000
+      internalID: -1249575619143788952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_53
+      rect:
+        serializedVersion: 2
+        x: 10835
+        y: 511
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21c78b3afc9fcb90800000000000000
+      internalID: -7219379079097106129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_54
+      rect:
+        serializedVersion: 2
+        x: 29459
+        y: 494
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cb068c82bfef6e0800000000000000
+      internalID: -1801726648322573264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_55
+      rect:
+        serializedVersion: 2
+        x: 29482
+        y: 495
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6909816ce58ce3210800000000000000
+      internalID: 1314708450614743190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_56
+      rect:
+        serializedVersion: 2
+        x: 18143
+        y: 487
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b8c2c4f944770f0800000000000000
+      internalID: -1119350531409802373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_57
+      rect:
+        serializedVersion: 2
+        x: 18143
+        y: 471
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21417bd6e5f0399b0800000000000000
+      internalID: -5074695456874359790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_58
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 453
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a2bc096e01f5020800000000000000
+      internalID: 2332601714458962566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_59
+      rect:
+        serializedVersion: 2
+        x: 28508
+        y: 451
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110621cc3969409a0800000000000000
+      internalID: -6267719219864772591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_60
+      rect:
+        serializedVersion: 2
+        x: 22282
+        y: 418
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c07235718ad2e60800000000000000
+      internalID: 7939186536256834632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfeaa1655fefaddb0800000000000000
+      internalID: -4766216925953216773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_62
+      rect:
+        serializedVersion: 2
+        x: 18971
+        y: 0
+        width: 460
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdfb6dd729274a40800000000000000
+      internalID: 5352291933348429263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_63
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 0
+        width: 498
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b6a59d625471250800000000000000
+      internalID: 5915272668732091250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_64
+      rect:
+        serializedVersion: 2
+        x: 9750
+        y: 374
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8619ab6ce46963240800000000000000
+      internalID: 4771166120331350376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_65
+      rect:
+        serializedVersion: 2
+        x: 6141
+        y: 0
+        width: 676
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d80768fcd570470800000000000000
+      internalID: 8360754379131751811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_66
+      rect:
+        serializedVersion: 2
+        x: 19868
+        y: 7
+        width: 335
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb83d8cd8bd10bf90800000000000000
+      internalID: -6940014345966503748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_67
+      rect:
+        serializedVersion: 2
+        x: 20966
+        y: 0
+        width: 413
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad19ebed8bab9bc0800000000000000
+      internalID: -3775235236583367255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_68
+      rect:
+        serializedVersion: 2
+        x: 25410
+        y: 203
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9095c2a9f7a7520800000000000000
+      internalID: 2700611226707757493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_69
+      rect:
+        serializedVersion: 2
+        x: 26492
+        y: 0
+        width: 335
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67421fa733b150700800000000000000
+      internalID: 505840441068954742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_70
+      rect:
+        serializedVersion: 2
+        x: 29601
+        y: 0
+        width: 334
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fba06937c8d29370800000000000000
+      internalID: 8327957011134196725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_71
+      rect:
+        serializedVersion: 2
+        x: 28938
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8c91827dd93cb90800000000000000
+      internalID: -7222755829955835649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_72
+      rect:
+        serializedVersion: 2
+        x: 19870
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058e145bf5329f2c0800000000000000
+      internalID: -4397444667180718000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_73
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 171
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9da6c488897a9970800000000000000
+      internalID: 8762449652252847517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_74
+      rect:
+        serializedVersion: 2
+        x: 19871
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd13743c44647d30800000000000000
+      internalID: 4428274612072291804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_75
+      rect:
+        serializedVersion: 2
+        x: 28937
+        y: 173
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ecd3902d5be3bd0800000000000000
+      internalID: -2648479617144467840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_76
+      rect:
+        serializedVersion: 2
+        x: 19870
+        y: 168
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78dd39725a1bb95d0800000000000000
+      internalID: -3054652599349027449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_77
+      rect:
+        serializedVersion: 2
+        x: 19869
+        y: 156
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07bf10711e89b200800000000000000
+      internalID: 196344264314042127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_78
+      rect:
+        serializedVersion: 2
+        x: 29601
+        y: 150
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610e78d4883272620800000000000000
+      internalID: 2749205165856251926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_79
+      rect:
+        serializedVersion: 2
+        x: 29929
+        y: 150
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fb821657467c200800000000000000
+      internalID: 200239163745288065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_80
+      rect:
+        serializedVersion: 2
+        x: 29925
+        y: 144
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d722a4060439740800000000000000
+      internalID: 5157536780574162284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_81
+      rect:
+        serializedVersion: 2
+        x: 11495
+        y: 132
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628bd15a3693a9f50800000000000000
+      internalID: 6888881680151328806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_82
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 121
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f827795dcaf6ff90800000000000000
+      internalID: -6920068017531967247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_83
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf0507e764210270800000000000000
+      internalID: 8214887223976595404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_84
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4943b9f7a2fd377a0800000000000000
+      internalID: -6380510873431362412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_85
+      rect:
+        serializedVersion: 2
+        x: 23333
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82318b556374239e0800000000000000
+      internalID: -1643172615344876760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_86
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 44
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ab3a464cd6e0180800000000000000
+      internalID: -9147253102873429347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_87
+      rect:
+        serializedVersion: 2
+        x: 6809
+        y: 47
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e4b186bbcd3cf50800000000000000
+      internalID: 6900601751525346838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clouds_Chicken_88
+      rect:
+        serializedVersion: 2
+        x: 20050
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e1532be6408ce80800000000000000
+      internalID: -8158265851498914173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Clouds_Chicken_0: 7400934684557240870
+      Clouds_Chicken_1: -3300128237541872265
+      Clouds_Chicken_10: -4554547702848000958
+      Clouds_Chicken_11: -1118181432663380171
+      Clouds_Chicken_12: -1500265206648690310
+      Clouds_Chicken_13: -8874091490135578307
+      Clouds_Chicken_14: -7095243925078553194
+      Clouds_Chicken_15: -1198977010254691440
+      Clouds_Chicken_16: -3432733542426944198
+      Clouds_Chicken_17: 6081801268827923481
+      Clouds_Chicken_18: -7674950362882017404
+      Clouds_Chicken_19: 3084253113470574528
+      Clouds_Chicken_2: 1614289919957973526
+      Clouds_Chicken_20: -4848927762291776930
+      Clouds_Chicken_21: 2228950020039050305
+      Clouds_Chicken_22: -5125856701727133519
+      Clouds_Chicken_23: 5680145691099152663
+      Clouds_Chicken_24: 2512537749552922797
+      Clouds_Chicken_25: -7319418018815895265
+      Clouds_Chicken_26: -7177590469724063878
+      Clouds_Chicken_27: 7227507148516656909
+      Clouds_Chicken_28: -5509087638044552770
+      Clouds_Chicken_29: 5295665416808554534
+      Clouds_Chicken_3: -1583589752413285446
+      Clouds_Chicken_30: -8340195873251622855
+      Clouds_Chicken_31: -6139448318356881946
+      Clouds_Chicken_32: -5435454198168515393
+      Clouds_Chicken_33: 7472498944686461586
+      Clouds_Chicken_34: -5598339074789741073
+      Clouds_Chicken_35: 3292862356947745727
+      Clouds_Chicken_36: -783037419166782374
+      Clouds_Chicken_37: 5239396873777908837
+      Clouds_Chicken_38: 8612495225006188527
+      Clouds_Chicken_39: -6381196400677522532
+      Clouds_Chicken_4: 6788304143523146823
+      Clouds_Chicken_40: -4931875721474720482
+      Clouds_Chicken_41: 5740219171945564591
+      Clouds_Chicken_42: 375210292871458530
+      Clouds_Chicken_43: -7732874492214712474
+      Clouds_Chicken_44: 2094684168989636025
+      Clouds_Chicken_45: -5596009854006290279
+      Clouds_Chicken_46: 4350802705987258328
+      Clouds_Chicken_47: -1966594591229338916
+      Clouds_Chicken_48: -5368689906150320648
+      Clouds_Chicken_49: 5387601039807832938
+      Clouds_Chicken_5: 6676771602897124945
+      Clouds_Chicken_50: 3672829899551382181
+      Clouds_Chicken_51: 7787385670278810478
+      Clouds_Chicken_52: -1249575619143788952
+      Clouds_Chicken_53: -7219379079097106129
+      Clouds_Chicken_54: -1801726648322573264
+      Clouds_Chicken_55: 1314708450614743190
+      Clouds_Chicken_56: -1119350531409802373
+      Clouds_Chicken_57: -5074695456874359790
+      Clouds_Chicken_58: 2332601714458962566
+      Clouds_Chicken_59: -6267719219864772591
+      Clouds_Chicken_6: 8789642123057793755
+      Clouds_Chicken_60: 7939186536256834632
+      Clouds_Chicken_61: -4766216925953216773
+      Clouds_Chicken_62: 5352291933348429263
+      Clouds_Chicken_63: 5915272668732091250
+      Clouds_Chicken_64: 4771166120331350376
+      Clouds_Chicken_65: 8360754379131751811
+      Clouds_Chicken_66: -6940014345966503748
+      Clouds_Chicken_67: -3775235236583367255
+      Clouds_Chicken_68: 2700611226707757493
+      Clouds_Chicken_69: 505840441068954742
+      Clouds_Chicken_7: 4256037714719080549
+      Clouds_Chicken_70: 8327957011134196725
+      Clouds_Chicken_71: -7222755829955835649
+      Clouds_Chicken_72: -4397444667180718000
+      Clouds_Chicken_73: 8762449652252847517
+      Clouds_Chicken_74: 4428274612072291804
+      Clouds_Chicken_75: -2648479617144467840
+      Clouds_Chicken_76: -3054652599349027449
+      Clouds_Chicken_77: 196344264314042127
+      Clouds_Chicken_78: 2749205165856251926
+      Clouds_Chicken_79: 200239163745288065
+      Clouds_Chicken_8: -9038961546842607724
+      Clouds_Chicken_80: 5157536780574162284
+      Clouds_Chicken_81: 6888881680151328806
+      Clouds_Chicken_82: -6920068017531967247
+      Clouds_Chicken_83: 8214887223976595404
+      Clouds_Chicken_84: -6380510873431362412
+      Clouds_Chicken_85: -1643172615344876760
+      Clouds_Chicken_86: -9147253102873429347
+      Clouds_Chicken_87: 6900601751525346838
+      Clouds_Chicken_88: -8158265851498914173
+      Clouds_Chicken_9: -6088308654725891307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
