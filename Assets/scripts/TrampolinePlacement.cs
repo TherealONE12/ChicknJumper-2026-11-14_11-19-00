@@ -42,7 +42,8 @@ public class TrampolinePlacement : MonoBehaviour
         if (prefab == null) return false;
         position.x = Mathf.Clamp(position.x, arenaMin.x, arenaMax.x);
         position.y = Mathf.Clamp(position.y, arenaMin.y, arenaMax.y);
-        arenaMax.y = arenaMax.y + 1;
+        arenaMax.x = arenaMax.x + 1;
+        arenaMin.x = arenaMin.x +1;
         // Do not create a collider inside the chicken or an arena wall.
         if (Physics2D.OverlapBox(position, new Vector2(2.4f, 0.8f), 0f) != null) return false;
         if (placedTrampoline != null)
