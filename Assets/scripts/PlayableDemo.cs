@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -12,7 +13,11 @@ public class PlayableDemo : MonoBehaviour
     [SerializeField] private Text scoreLabel;
     [SerializeField] private Text stateLabel;
     [SerializeField] private Vector2 spawnPosition = new Vector2(-4f, 1.5f);
-    private bool paused;
+    [SerializeField] private CameraFollow cameraFollow;
+    [SerializeField] private GameObject turbine;
+    private Coroutine launchSequence;
+
+    private void Start() => Restart();
 
     private void OnEnable()
     {
@@ -37,23 +42,49 @@ public class PlayableDemo : MonoBehaviour
             if (keyboard.rKey.wasPressedThisFrame) Restart();
             if (keyboard.escapeKey.wasPressedThisFrame) MainMenu();
         }
-        if (chicken.IsAlive && !paused && flyingFrames.Length > 0)
+        if (chicken.IsAlive && flyingFrames.Length > 0)
             chickenRenderer.sprite = flyingFrames[(int)(Time.time * 8f) % flyingFrames.Length];
-        if (chicken.IsAlive && (Mathf.Abs(chicken.transform.position.x) > 10f || Mathf.Abs(chicken.transform.position.y) > 7f))
+        if (turbine.activeSelf && chicken.transform.position.x - turbine.transform.position.x > Camera.main.orthographicSize * Camera.main.aspect * 2f)
+            turbine.SetActive(false);
+        if (chicken.IsAlive && chicken.transform.position.y < -7f)
             chicken.Die();
     }
 
-    private void UpdateScore() => scoreLabel.text = $"Score:  {chicken.BounceCount:000}";
+    private void UpdateScore()
+    {
+        if (scoreLabel != null) scoreLabel.text = $"Score: {chicken.BounceCount:000}";
+    }
     private void ShowGameOver() => stateLabel.text = $"The Chicken has Landet! Retry with R for a new attempt! Score: {chicken.BounceCount:000}";
 
     public void Restart()
     {
         Time.timeScale = 1f;
-        paused = false;
         placement.ClearTrampoline();
+        if (launchSequence != null) StopCoroutine(launchSequence);
+        launchSequence = StartCoroutine(LaunchFromTurbine());
+    }
+
+    private IEnumerator LaunchFromTurbine()
+    {
         chicken.Launch(spawnPosition);
+        chicken.GetComponent<Rigidbody2D>().simulated = false;
+        placement.enabled = false;
+        turbine.SetActive(true);
+        turbine.transform.position = new Vector3(spawnPosition.x - 1.7f, spawnPosition.y, 0f);
         stateLabel.text = "";
         UpdateScore();
+        float elapsed = 0f;
+        while (elapsed < 0.9f)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / 0.9f);
+            chicken.transform.position = (Vector3)spawnPosition + Vector3.left * (2.2f * (1f - t * t));
+            yield return null;
+        }
+        chicken.Launch(spawnPosition);
+        placement.enabled = true;
+        launchSequence = null;
+        if (cameraFollow != null) cameraFollow.SnapToTarget();
     }
 
     public void MainMenu()

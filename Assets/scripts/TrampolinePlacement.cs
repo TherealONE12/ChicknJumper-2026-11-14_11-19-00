@@ -9,10 +9,8 @@ public class TrampolinePlacement : MonoBehaviour
     [SerializeField] private GameObject prefab;
     [SerializeField] private Camera cam;
     [SerializeField] private Ball chicken;
-    [SerializeField] private Vector2 arenaMin = new Vector2(-7.2f, -3.2f);
-    [SerializeField] private Vector2 arenaMax = new Vector2(7.2f, 3.2f);
-    // size of the free area needed to place a trampoline
-    [SerializeField] private Vector2 trampolineSize = new Vector2(2.4f, 0.8f);
+    [SerializeField] private Vector2 arenaMin = new Vector2(-8.2f, -3.2f);
+    [SerializeField] private Vector2 arenaMax = new Vector2(8.2f, 3.2f);
     private GameObject placedTrampoline;
     public GameObject PlacedTrampoline => placedTrampoline;
 
@@ -41,11 +39,12 @@ public class TrampolinePlacement : MonoBehaviour
 
     public bool TryPlaceWorld(Vector2 position)
     {
-        if (prefab == null) return false;
-        position.x = Mathf.Clamp(position.x, arenaMin.x, arenaMax.x);
+        if (prefab == null || cam == null || Time.timeScale == 0f || (chicken != null && !chicken.IsAlive)) return false;
+        // The placement area travels with the view; clicks never change its limits.
+        float halfWidth = cam.orthographicSize * cam.aspect;
+        position.x = Mathf.Clamp(position.x, cam.transform.position.x - halfWidth + 1.2f,
+            cam.transform.position.x + halfWidth - 1.2f);
         position.y = Mathf.Clamp(position.y, arenaMin.y, arenaMax.y);
-        arenaMax.x = arenaMax.x + 1;
-        arenaMin.x = arenaMin.x +1;
         // Do not create a collider inside the chicken or an arena wall.
         // The old trampoline and triggers are ignored, the old one gets replaced anyway.
         foreach (Collider2D hit in Physics2D.OverlapBoxAll(position, trampolineSize, 0f))

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
+    [SerializeField] private bool autoLaunch = true;
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private float startDirection = -45f;
     [SerializeField, Range(10f, 80f)] private float bounceDirection = 45f;
@@ -13,6 +14,7 @@ public class Ball : MonoBehaviour
 
     public bool IsAlive { get; private set; }
     public int BounceCount { get; private set; }
+    public float CurrentSpeed => speed * Mathf.Pow(1.2f, BounceCount / 5);
     public event Action Bounced;
     public event Action Died;
 
@@ -25,9 +27,13 @@ public class Ball : MonoBehaviour
         body.constraints = RigidbodyConstraints2D.FreezeRotation;
         body.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         body.interpolation = RigidbodyInterpolation2D.Interpolate;
+        if (!autoLaunch) body.simulated = false;
     }
 
-    private void Start() => Launch(body.position);
+    private void Start()
+    {
+        if (autoLaunch) Launch(body.position);
+    }
 
     public void Launch(Vector2 position)
     {
@@ -40,7 +46,7 @@ public class Ball : MonoBehaviour
         BounceCount = 0;
         IsAlive = true;
         float radians = startDirection * Mathf.Deg2Rad;
-        lastSpeed = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians)) * speed;
+        lastSpeed = new Vector2(Mathf.Cos(radians), Mathf.Sin(radians)) * CurrentSpeed;
         body.linearVelocity = lastSpeed;
     }
 
@@ -55,7 +61,7 @@ public class Ball : MonoBehaviour
     {
         if (!IsAlive) return;
         // A component avoids relying on an undefined custom Unity tag.
-        if (!collision.collider.TryGetComponent<BounceSurface>(out _))
+        if (!collision.collider.TryGetComponent<BounceSurface>(out var surface))
         {
             Die();
             return;
@@ -66,10 +72,10 @@ public class Ball : MonoBehaviour
         if (side == 0f) side = 1f;
         float radians = bounceDirection * Mathf.Deg2Rad;
         Vector2 direction = tangent * side * Mathf.Cos(radians) + normal * Mathf.Sin(radians);
-        lastSpeed = direction.normalized * speed;
+        if (surface.AwardsPoint) BounceCount++;
+        lastSpeed = direction.normalized * CurrentSpeed;
         body.linearVelocity = lastSpeed;
-        BounceCount++;
-        Bounced?.Invoke();
+        if (surface.AwardsPoint) Bounced?.Invoke();
     }
 
     public void Die()
