@@ -17,7 +17,7 @@ ChicknJumper is a game where you Try to Bounce your way to the next Highscore, m
 
 ## Want to try it out?
 
-[![Button Component](https://therealallinone.itch.io/chicknjumper)
+[![Button Component]](https://therealallinone.itch.io/chicknjumper)
 
 ---
 
