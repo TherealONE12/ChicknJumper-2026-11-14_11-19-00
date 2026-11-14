@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 9373474b7b2e1d9d5aa47bd905bea059
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5223794535338866865
+    second: Flying_StartAnimation_0
+  - first:
+      213: -1487915673788007621
+    second: Flying_StartAnimation_1
+  - first:
+      213: 5286520664467485881
+    second: Flying_StartAnimation_2
+  - first:
+      213: 7781755106289241873
+    second: Flying_StartAnimation_3
+  - first:
+      213: -964835476931128401
+    second: Flying_StartAnimation_4
+  - first:
+      213: 8344391772063239054
+    second: Flying_StartAnimation_5
+  - first:
+      213: 305076445891134090
+    second: Flying_StartAnimation_6
+  - first:
+      213: 6068455751841686647
+    second: Flying_StartAnimation_7
+  - first:
+      213: 49834851359380239
+    second: Flying_StartAnimation_8
+  - first:
+      213: -8652495485214220499
+    second: Flying_StartAnimation_9
+  - first:
+      213: -2607000062868450769
+    second: Flying_StartAnimation_10
+  - first:
+      213: 9127572411353078283
+    second: Flying_StartAnimation_11
+  - first:
+      213: -4890753778267136955
+    second: Flying_StartAnimation_12
+  - first:
+      213: -3783107863347159261
+    second: Flying_StartAnimation_13
+  - first:
+      213: 1481496839502428842
+    second: Flying_StartAnimation_14
+  - first:
+      213: 3986264836863832292
+    second: Flying_StartAnimation_15
+  - first:
+      213: -5950798082727989424
+    second: Flying_StartAnimation_16
+  - first:
+      213: -8857991748167898360
+    second: Flying_StartAnimation_17
+  - first:
+      213: 6908686902274470601
+    second: Flying_StartAnimation_18
+  - first:
+      213: -7463443954705031374
+    second: Flying_StartAnimation_19
+  - first:
+      213: 6526649299907754597
+    second: Flying_StartAnimation_20
+  - first:
+      213: 7942782105674242029
+    second: Flying_StartAnimation_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Flying_StartAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 235
+        width: 208
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4700850c8a5187b0800000000000000
+      internalID: -5223794535338866865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 95
+        width: 208
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b3128f39cd95be0800000000000000
+      internalID: -1487915673788007621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 43
+        width: 208
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4b85ff88e7d5940800000000000000
+      internalID: 5286520664467485881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 154
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc3772a095efb60800000000000000
+      internalID: 7781755106289241873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 73
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa353d2ee373c92f0800000000000000
+      internalID: -964835476931128401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 58
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b85803b1c3dc370800000000000000
+      internalID: 8344391772063239054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 58
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a820ea24969db3400800000000000000
+      internalID: 305076445891134090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 58
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77423bfaa5c773450800000000000000
+      internalID: 6068455751841686647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 58
+        width: 120
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d5b4888c01b000800000000000000
+      internalID: 49834851359380239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 4403
+        y: 58
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9227f2392ce780800000000000000
+      internalID: -8652495485214220499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 4881
+        y: 58
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f221e4b514312dbd0800000000000000
+      internalID: -2607000062868450769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 5345
+        y: 58
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a1b588fb6abae70800000000000000
+      internalID: 9127572411353078283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 58
+        width: 120
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cdc7ad95d802cb0800000000000000
+      internalID: -4890753778267136955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 6286
+        y: 58
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f943a2173bf7bc0800000000000000
+      internalID: -3783107863347159261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 6764
+        y: 58
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaf766b6855f8410800000000000000
+      internalID: 1481496839502428842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 7227
+        y: 58
+        width: 127
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e036edbfbe025730800000000000000
+      internalID: 3986264836863832292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 7668
+        y: 73
+        width: 193
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f2ce42ca48a6da0800000000000000
+      internalID: -5950798082727989424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 36
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b6c1bcf67121580800000000000000
+      internalID: -8857991748167898360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 36
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2b672422690ef50800000000000000
+      internalID: 6908686902274470601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 36
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f15c624458c6890800000000000000
+      internalID: -7463443954705031374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 14
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56abd8665f0539a50800000000000000
+      internalID: 6526649299907754597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying_StartAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 14
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7da011e3e6a3e60800000000000000
+      internalID: 7942782105674242029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Flying_StartAnimation_0: -5223794535338866865
+      Flying_StartAnimation_1: -1487915673788007621
+      Flying_StartAnimation_10: -2607000062868450769
+      Flying_StartAnimation_11: 9127572411353078283
+      Flying_StartAnimation_12: -4890753778267136955
+      Flying_StartAnimation_13: -3783107863347159261
+      Flying_StartAnimation_14: 1481496839502428842
+      Flying_StartAnimation_15: 3986264836863832292
+      Flying_StartAnimation_16: -5950798082727989424
+      Flying_StartAnimation_17: -8857991748167898360
+      Flying_StartAnimation_18: 6908686902274470601
+      Flying_StartAnimation_19: -7463443954705031374
+      Flying_StartAnimation_2: 5286520664467485881
+      Flying_StartAnimation_20: 6526649299907754597
+      Flying_StartAnimation_21: 7942782105674242029
+      Flying_StartAnimation_3: 7781755106289241873
+      Flying_StartAnimation_4: -964835476931128401
+      Flying_StartAnimation_5: 8344391772063239054
+      Flying_StartAnimation_6: 305076445891134090
+      Flying_StartAnimation_7: 6068455751841686647
+      Flying_StartAnimation_8: 49834851359380239
+      Flying_StartAnimation_9: -8652495485214220499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
