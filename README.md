@@ -29,4 +29,6 @@ However, you can't Place them onto your Chicken, so plan accordingly!!
 
 
 
+---
 
+# Made by Sebastian, Paul and Jakob with <3 (And some bugs, lol)
