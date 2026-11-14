@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "ChicknJumper-2026-11-14_11-19-00.slnx"
+    "dotnet.defaultSolution": "ChicknJumper.slnx"
 }
