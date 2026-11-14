@@ -97,15 +97,14 @@ public static class DemoBuild
         frameArray.arraySize = frames.Length;
         for (int i = 0; i < frames.Length; i++) frameArray.GetArrayElementAtIndex(i).objectReferenceValue = frames[i];
         serializedDemo.ApplyModifiedPropertiesWithoutUndo();
-        Button(canvas.transform, "Neustart", new Vector2(-190f, -278f), demo.Restart);
-        Button(canvas.transform, "Pause", new Vector2(0f, -278f), demo.TogglePause);
-        Button(canvas.transform, "Menü", new Vector2(190f, -278f), demo.MainMenu);
+        Button(canvas.transform, "Restart", new Vector2(-190f, -278f), demo.Restart);
+        Button(canvas.transform, "Menu", new Vector2(190f, -278f), demo.MainMenu);
         controller.SetActive(true);
         EditorSceneManager.SaveScene(scene, ScenePath);
 
         WireMenu();
         EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(MenuPath, true), new EditorBuildSettingsScene(ScenePath, true) };
-        PlayerSettings.productName = "ChicknJumper Demo";
+        PlayerSettings.productName = "ChicknJumper";
         PlayerSettings.defaultScreenWidth = 1280;
         PlayerSettings.defaultScreenHeight = 720;
         PlayerSettings.fullScreenMode = FullScreenMode.Windowed;
