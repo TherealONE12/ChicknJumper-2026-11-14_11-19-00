@@ -100,6 +100,7 @@ public static class DemoBuild
         Button(canvas.transform, "Restart", new Vector2(-190f, -278f), demo.Restart);
         Button(canvas.transform, "Menu", new Vector2(190f, -278f), demo.MainMenu);
         controller.SetActive(true);
+        ApplyEndless();
         EditorSceneManager.SaveScene(scene, ScenePath);
 
         WireMenu();
@@ -111,6 +112,77 @@ public static class DemoBuild
         AssetDatabase.SaveAssets();
         EditorSceneManager.OpenScene(ScenePath);
         Debug.Log("DEMO_CREATED: " + ScenePath);
+    }
+
+    [MenuItem("ChicknJumper/Configure endless run")]
+    public static void ConfigureEndless()
+    {
+        EditorSceneManager.OpenScene(ScenePath);
+        ApplyEndless();
+        EditorSceneManager.SaveScene(SceneManager.GetActiveScene());
+        AssetDatabase.SaveAssets();
+        Debug.Log("ENDLESS_CONFIGURED");
+    }
+
+    private static void ApplyEndless()
+    {
+        square = AssetDatabase.LoadAllAssetsAtPath("Assets/scripts/Square.png").OfType<Sprite>().First();
+        var chicken = UnityEngine.Object.FindAnyObjectByType<Ball>();
+        var demo = UnityEngine.Object.FindAnyObjectByType<PlayableDemo>();
+        var placement = UnityEngine.Object.FindAnyObjectByType<TrampolinePlacement>();
+        var camera = Camera.main;
+        var follow = camera.GetComponent<CameraFollow>() ?? camera.gameObject.AddComponent<CameraFollow>();
+        SetObject(follow, "target", chicken.transform);
+        var followData = new SerializedObject(follow);
+        followData.FindProperty("offsetX").floatValue = 4f;
+        followData.ApplyModifiedPropertiesWithoutUndo();
+        SetObject(demo, "cameraFollow", follow);
+        var ballData = new SerializedObject(chicken);
+        ballData.FindProperty("autoLaunch").boolValue = false;
+        ballData.ApplyModifiedPropertiesWithoutUndo();
+        foreach (string name in new[] { "Linke Wand", "Rechte Wand", "Decke", "Sprungboden" })
+        {
+            var wall = GameObject.Find(name);
+            if (wall != null) UnityEngine.Object.DestroyImmediate(wall);
+        }
+        var background = GameObject.Find("Scheune");
+        var scenery = background.GetComponent<EndlessBackground>() ?? background.AddComponent<EndlessBackground>();
+        SetObject(scenery, "cam", camera);
+        var ceilingObject = GameObject.Find("Endless ceiling") ?? new GameObject("Endless ceiling", typeof(BoxCollider2D), typeof(BounceSurface));
+        ceilingObject.transform.position = new Vector3(0f, 5.4f, 0f);
+        ceilingObject.GetComponent<BoxCollider2D>().size = new Vector2(40f, 0.3f);
+        var surface = new SerializedObject(ceilingObject.GetComponent<BounceSurface>());
+        surface.FindProperty("awardsPoint").boolValue = false;
+        surface.ApplyModifiedPropertiesWithoutUndo();
+        var world = demo.GetComponent<EndlessWorld>() ?? demo.gameObject.AddComponent<EndlessWorld>();
+        SetObject(world, "cam", camera);
+        SetObject(world, "chicken", chicken);
+        SetObject(world, "placement", placement);
+        SetObject(world, "ceiling", ceilingObject.GetComponent<BoxCollider2D>());
+        SetObject(world, "scenery", scenery);
+        SetObject(world, "shade", GameObject.Find("Hintergrund abdunkeln").GetComponent<SpriteRenderer>());
+
+        var canvas = UnityEngine.Object.FindAnyObjectByType<Canvas>();
+        var existingScore = canvas.transform.Find("Run Score") ?? canvas.transform.Find("Sprünge");
+        Text score = existingScore != null ? existingScore.GetComponent<Text>() :
+            Label(canvas.transform, "Run Score", "Score: 000", Vector2.zero, new Vector2(320f, 60f), 30);
+        var rect = score.rectTransform;
+        rect.anchorMin = rect.anchorMax = new Vector2(1f, 1f);
+        rect.pivot = new Vector2(1f, 1f);
+        rect.anchoredPosition = new Vector2(-25f, -20f);
+        score.alignment = TextAnchor.MiddleRight;
+        if (score.GetComponent<Outline>() == null) score.gameObject.AddComponent<Outline>();
+        SetObject(demo, "scoreLabel", score);
+
+        var turbine = GameObject.Find("Launch Turbine");
+        if (turbine == null)
+        {
+            var sprite = AssetDatabase.LoadAllAssetsAtPath("Assets/spritesheet/Turbine_SpriteSheet.png").OfType<Sprite>().OrderBy(x => x.name).First();
+            turbine = SpriteObject("Launch Turbine", sprite, new Vector2(-5.7f, 1.5f), Color.white, 4);
+            turbine.transform.localScale = Vector3.one * (5.4f / sprite.bounds.size.y);
+            turbine.AddComponent<Animator>().runtimeAnimatorController = AssetDatabase.LoadAssetAtPath<RuntimeAnimatorController>("Assets/spritesheet/Turbine_SpriteSheet_0.controller");
+        }
+        SetObject(demo, "turbine", turbine);
     }
 
     private static Sprite ImportChicken(string sourceName, Rect rect)

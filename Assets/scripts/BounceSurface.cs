@@ -4,4 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class BounceSurface : MonoBehaviour
 {
+    [SerializeField] private bool awardsPoint = true;
+    public bool AwardsPoint => awardsPoint;
 }

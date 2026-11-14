@@ -1,17 +1,17 @@
-# ChicknJumper – erste Unity-Demo
+# ChicknJumper – Endless Run
 
 Unity **6000.6.9f1** verwenden.
 
-- `Assets/Scenes/PlayableDemo.unity` öffnen und **Play** drücken.
-- Alternativ `HomeScreen.unity` öffnen und im Spiel **Play** anklicken oder **Enter** drücken.
-- Das Hendl startet sofort und springt automatisch zwischen den Begrenzungen hin und her.
-- **Linksklick / Touch:** ein Trampolin platzieren, das den Flug umlenkt. Der nächste Klick ersetzt das Trampolin. Direkt im Hendl oder in einer Wand kann keines gesetzt werden.
-- **R / Neustart:** Runde und Sprungzähler zurücksetzen.
-- **Leertaste / Pause:** pausieren und fortsetzen.
+- `Assets/Scenes/PlayableDemo.unity` öffnen und **Play** drücken, oder im Startmenü **Play / Enter** wählen.
+- Die animierte Turbine bläst das Hendl beim Start und nach jedem Neustart ins Spiel.
+- **Linksklick / Touch:** ein Trampolin im aktuellen Bildausschnitt setzen. Der nächste Klick ersetzt es. Direkt im Hendl kann keines gesetzt werden.
+- Die Kamera folgt dem Hendl nach rechts. Die Landschaft wird lückenlos wiederverwendet; es gibt kein horizontales Levelende.
+- Jeder Trampolinsprung zählt einen Punkt. Der Score bleibt während des Laufs oben rechts sichtbar.
+- Alle **5 Punkte** steigt die Fluggeschwindigkeit um **20 %** gegenüber der vorherigen Stufe (5 → 6 → 7,2 → 8,64 …).
+- Am oberen Bildschirmrand wird das Hendl wieder nach unten gelenkt. Wer unten vorbeifliegt, beendet den Lauf.
+- **R:** Neustart mit Score 0 und Anfangsgeschwindigkeit.
 - **Esc / Menü:** zum Startbildschirm zurückkehren.
-
-Die Demo verwendet die vorhandene Scheune und Hendl-Grafiken. Die Introanimation wird übersprungen. Die Arena ist absichtlich rundherum mit Abprallflächen geschlossen, damit man sofort Bewegung sieht und Trampoline ausprobieren kann.
 
 Unter **ChicknJumper → Build Linux demo** entsteht `Builds/Linux/ChicknJumper.x86_64`. Den gesamten Ordner weitergeben, nicht nur die ausführbare Datei.
 
-`DemoBuild.Create` kann die Demo-Szene neu erzeugen; dabei wird nur die Demo-Szene ersetzt und die Buttons im Startmenü werden verbunden. `LevelDesign.unity` wird nicht verändert. Mit `DemoSmokeCheck.Run` lässt sich die Demo in einer separaten Unity-Instanz mit `-batchmode -nographics -executeMethod DemoSmokeCheck.Run` in Play Mode prüfen (ohne `-quit`).
+`DemoBuild.ConfigureEndless` richtet die Endless-Komponenten in der vorhandenen Demo-Szene ein. `DemoBuild.Create` erzeugt die Demo-Szene einschließlich Endless-Modus neu. `LevelDesign.unity` bleibt unverändert.
