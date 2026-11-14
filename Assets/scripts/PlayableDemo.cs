@@ -35,7 +35,6 @@ public class PlayableDemo : MonoBehaviour
         if (keyboard != null)
         {
             if (keyboard.rKey.wasPressedThisFrame) Restart();
-            if (keyboard.spaceKey.wasPressedThisFrame) TogglePause();
             if (keyboard.escapeKey.wasPressedThisFrame) MainMenu();
         }
         if (chicken.IsAlive && !paused && flyingFrames.Length > 0)
@@ -44,8 +43,8 @@ public class PlayableDemo : MonoBehaviour
             chicken.Die();
     }
 
-    private void UpdateScore() => scoreLabel.text = $"SPRÜNGE  {chicken.BounceCount:000}";
-    private void ShowGameOver() => stateLabel.text = "Hendl gelandet!\nR oder Neustart für die nächste Runde";
+    private void UpdateScore() => scoreLabel.text = $"Score:  {chicken.BounceCount:000}";
+    private void ShowGameOver() => stateLabel.text = $"The Chicken has Landet! Retry with R for a new attempt! Score: {chicken.BounceCount:000}";
 
     public void Restart()
     {
@@ -55,14 +54,6 @@ public class PlayableDemo : MonoBehaviour
         chicken.Launch(spawnPosition);
         stateLabel.text = "";
         UpdateScore();
-    }
-
-    public void TogglePause()
-    {
-        if (!chicken.IsAlive) return;
-        paused = !paused;
-        Time.timeScale = paused ? 0f : 1f;
-        stateLabel.text = paused ? "PAUSE\nLeertaste oder Pause zum Weiterspielen" : "";
     }
 
     public void MainMenu()

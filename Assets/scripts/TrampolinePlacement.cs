@@ -44,6 +44,7 @@ public class TrampolinePlacement : MonoBehaviour
         if (prefab == null) return false;
         position.x = Mathf.Clamp(position.x, arenaMin.x, arenaMax.x);
         position.y = Mathf.Clamp(position.y, arenaMin.y, arenaMax.y);
+        arenaMax.y = arenaMax.y + 1;
         // Do not create a collider inside the chicken or an arena wall.
         // The old trampoline and triggers are ignored, the old one gets replaced anyway.
         foreach (Collider2D hit in Physics2D.OverlapBoxAll(position, trampolineSize, 0f))
